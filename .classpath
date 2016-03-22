@@ -6,6 +6,7 @@
 			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="F:/System/Java/JDK"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry excluding="net/anglewyrm/pixies/" kind="src" path="assets"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
