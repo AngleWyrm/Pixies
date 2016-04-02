@@ -7,8 +7,27 @@ import net.minecraft.item.ItemStack;
 
 public class Recipes {
 
+	// called from Pixies.init event
 	public static void registerRecipes() 
 	{
+		// glowstone <-> redstone
+		GameRegistry.addShapelessRecipe(
+				new ItemStack(Items.glowstone_dust), 
+				new ItemStack(Items.redstone)
+				);
+		GameRegistry.addShapelessRecipe(
+				new ItemStack(Items.redstone),
+				new ItemStack(Items.glowstone_dust) 
+				);
+		/*
+		GameRegistry.addRecipe(new ItemStack(Items.redstone), new Object[]
+				{
+			"G", 
+			'G', Items.iron_ingot
+				});		// redstone -> glowstone
+		*/
+		// sapling bed
+		
 	} // registerRecipes
 
 } // Recipes class

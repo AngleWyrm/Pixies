@@ -12,7 +12,7 @@ public class Pixies {
 
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event){
-		Constants.getMetadata(event);
+		Constants.setMetadata(event);
 	}
 	
     @EventHandler
